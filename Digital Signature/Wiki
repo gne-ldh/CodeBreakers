@@ -1,1 +1,57 @@
-Digital Signature
+Stepwise description has been given below:
+
+Data Extraction
+
+Mainly this is the first step for the Digital Signature project..At this phase we usually extract
+data from an image..The coding that is being used to initiate this project is considered to be java.
+We can convert any image file to text by Optical Character Recognition using the java program.
+The API we are using here is the Tesseract OCR which is free licensed.
+
+Before running the program we have to download and install Tesseract in our PC.
+
+In our project we have three classes in particular package which revolves on this step..
+For example:There are classes namely my_main.java,Read_file.java etc which are included in the package 
+of data extraction in which Read_file.java would read from the output file that is being created by
+executing or running my_main.java class..Mainly my_main.java class contains the path fow a input and
+output file from where the execution begins..
+
+
+Message Digest(Hash)
+
+Mainly for message digest or we can say hash value is the step that provides integrity to data.For this
+purpose SHA 256 is being used.SHA-256 stands for Secure Hash Algorithm – 256 bit is a type of hash function. A hash function is a type
+of mathematical function which turns data into a fingerprint of that data called a hash. It is like a 
+formula or algorithm which takes the input data and turns it into an output of a fixed length, which 
+represents the fingerprint of the data. In simple words, SHA-256 is one of the cryptographic hash function
+which has digest length of 256 bits.
+In this project, SHA-256 has been used to achieve data integrity. A hash function is a one-way function,
+thus it is impossible to generate back the input data from its hash. So, you can go from the input data
+to the hash but not from the hash to the input data.
+
+
+Generating Keys
+
+Mainly DSA (Digital Signature Algorithm) is being employed in this project..Keys that are generated are
+of two types: Public and Private..The private key is applied at beginning i.e from the sender side
+after message digest is created through SHA 256.Message digest is a fixed length hash number which is fed 
+to DSA algorithm..
+
+
+Asymmetric Encryption
+
+Asymmetric Cryptography is also known as public key cryptography. It uses public and private keys to
+encrypt and decrypt data. One key in the pair which can be shared with everyone is called the 
+public key. The other key in the pair which is kept secret and is only known by the owner is called
+the private key. Either of the keys can be used to encrypt a message; the opposite key from the one
+used to encrypt the message is used for decryption.
+In this project encryption is done on sender side or signer side after creating message digest.At
+reciever end or we can say verification side signature is being verified by decrypting the encrypted
+message through public key..And afterwards,hash value is being compared.If hash value comes out
+to be same,then the signature is verified,else signature is disqualified for validation or is 
+considered to be invalid..
+
+Project plot
+
+Mainly this project provides integrity and authentication where integrity refers to feature that provides
+surety that data is not changed during transmission and authentication is any process by which system
+ verifies the identity of user who wishes to access it..
