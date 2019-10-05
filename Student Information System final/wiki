@@ -1,1 +1,33 @@
-wiki
+                                   Student Information Management
+Technologies Used: PHP 5.6, MYSQL, HTML, CSS, JAVASCRIPT, JQUERY, AJAX
+Features of Projects
+•	Course Creation (Add, edit and delete)
+•	Subject combination with Course (Add, edit and delete)
+•	Students Registration
+•	Manage Student (View, edit and Delete)
+•	Login
+•	logout
+•	Admin Profile
+•	Admin change Password
+•	Remember me option
+•	Forgot password
+Student Management System is an application which will help in managing the student’s reports, results and exams will become 
+easier with one such system. It will also help in saving time and effort. The user interface must be user friendly and easy to understand. 
+There are custom search capabilities to aid in finding student information and working on student records. 
+
+This can make the system easier to navigate and to use maximizing the effectiveness of time and other resources. SMS allows the keeping 
+of personnel data in a form that can be easily accessed and analized in a consistent way. The information of the particular student will be obtained in just one mouse click. Some of the features that it can include are as follows:
+Student database management: The details of the students of the organizations can be stored in the database with the use this application.
+
+Results: The results of the students can also be accessed and stored through this application.
+
+Security: The data that will be disclosed will be more secure since there will be no access to the unknown users.
+
+Performance: The performance of the students might be in curriculum as well as co-curriculum can also be stored through the use of 
+this application.
+
+One-click access: You will obtain the details of the students by entering his/her name or the roll number just in one click.
+
+User interface: The user interface must be simple and easy to understand.
+
+Personal details: All the personal details of the students can be obtained in just one mouse click.
